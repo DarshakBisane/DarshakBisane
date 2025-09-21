@@ -57,3 +57,8 @@ Languages and Tools:
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=darshakbisane&show_icons=true&locale=en" alt="darshakbisane" /></p>
 
 <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=darshakbisane&" alt="darshakbisane" /></p>
+
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />

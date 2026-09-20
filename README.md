@@ -2,7 +2,7 @@
 
   <!-- ==================== HERO BANNER ==================== -->
   <a href="https://github.com/DarshakBisane">
-    <img src="assets/hero.svg" alt="Darshak Bisane - AI/ML Engineer Banner" width="100%" />
+    <img src="assets/hero.svg" alt="Darshak Bisane - AI/ML Engineer" width="100%" />
   </a>
 
   <br/><br/>
@@ -12,20 +12,22 @@
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&height=40&lines=Aspiring+Machine+Learning+%26+AI+Engineer;Building+Autonomous+AI+Agents+%26+RAG+Pipelines;Architecting+FastAPI+Backends+%26+Distributed+Systems;Mindset%3A+Build+%E2%86%92+Break+%E2%86%92+Analyze+%E2%86%92+Improve" alt="Typing Animation" />
   </a>
 
-  <br/>
+  <br/><br/>
 
-  <!-- Status & Uplink Badges -->
+  <!-- Minimalist Social Icons -->
   <p align="center">
-    <a href="https://github.com/DarshakBisane">
-      <img src="https://img.shields.io/badge/STATUS-ACTIVE__SYSTEMS-00f0ff?style=for-the-badge&logo=statuspage&logoColor=black&labelColor=030712" alt="Status" />
+    <a href="https://github.com/DarshakBisane" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" width="36" height="36" alt="GitHub" />
     </a>
-    &nbsp;
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME">
-      <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-a855f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=030712" alt="LinkedIn" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- REPLACE 'YOUR-LINKEDIN-USERNAME' WITH YOUR ACTUAL LINKEDIN PROFILE SLUG -->
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" width="36" height="36" alt="LinkedIn" />
     </a>
-    &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- REPLACE 'your-email@example.com' WITH YOUR ACTUAL EMAIL -->
     <a href="mailto:your-email@example.com">
-      <img src="https://img.shields.io/badge/UPLINK-DISPATCH_MAIL-ec4899?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712" alt="Email" />
+      <img src="https://skillicons.dev/icons?i=gmail" width="36" height="36" alt="Email" />
     </a>
   </p>
 
@@ -33,7 +35,7 @@
 
 ---
 
-### 📡 `01 // DEVELOPER IDENTITY`
+## 👨‍💻 About Me
 
 ```yaml
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -51,7 +53,7 @@
 
 ---
 
-### ⚡ `02 // CORE TECH STACK`
+## 🛠️ Technical Arsenal
 
 <table align="center" width="100%">
   <tr>
@@ -86,7 +88,7 @@
     </td>
     <td width="50%" valign="top">
       <h4>⚙️ DevOps, Tools & Web</h4>
-      <p><em>Containerization • CI/CD • Prototyping</em></p>
+      <p><em>Containerization • CI/CD • Tooling</em></p>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=docker,git,github,linux,bash,postman,vscode&theme=dark" alt="DevOps Stack" />
       </a>
@@ -98,7 +100,7 @@
 
 ---
 
-### 🛸 `03 // FEATURED PROJECTS`
+## 🚀 Featured Projects
 
 <table>
   <tr>
@@ -108,12 +110,11 @@
         <p><strong>Intelligent Safety Perimeter & Vision Guardian</strong></p>
         <p>Computer vision system for dynamic hazard zone monitoring, boundary enforcement, and real-time anomaly detection.</p>
         <p>
-          <img src="https://img.shields.io/badge/Domain-Computer_Vision-00f0ff?style=flat-square&logo=opencv&logoColor=white" />
-          <img src="https://img.shields.io/badge/Stack-Python_•_FastAPI_•_OpenCV-1e293b?style=flat-square" />
+          <code>Computer Vision</code> • <code>Python</code> • <code>FastAPI</code> • <code>OpenCV</code>
         </p>
         <p>
           <a href="https://github.com/DarshakBisane">
-            <img src="https://img.shields.io/badge/VIEW_REPOSITORY-030712?style=for-the-badge&logo=github&logoColor=00f0ff" alt="View LaxmanRekha AI" />
+            <b>Explore Repository →</b>
           </a>
         </p>
       </div>
@@ -124,12 +125,11 @@
         <p><strong>Data-Driven Career & Curriculum Intelligence</strong></p>
         <p>NLP & ML analytics platform mapping university curriculum against industry demand to recommend targeted learning paths.</p>
         <p>
-          <img src="https://img.shields.io/badge/Domain-NLP_•_Analytics-a855f7?style=flat-square&logo=scikitlearn&logoColor=white" />
-          <img src="https://img.shields.io/badge/Stack-Python_•_NLP_•_Pandas-1e293b?style=flat-square" />
+          <code>NLP</code> • <code>Data Analytics</code> • <code>Python</code> • <code>Pandas</code>
         </p>
         <p>
           <a href="https://github.com/DarshakBisane">
-            <img src="https://img.shields.io/badge/VIEW_REPOSITORY-030712?style=for-the-badge&logo=github&logoColor=a855f7" alt="View Skill Gap Analyzer" />
+            <b>Explore Repository →</b>
           </a>
         </p>
       </div>
@@ -142,12 +142,11 @@
         <p><strong>Autonomous Multi-Agent Orchestration</strong></p>
         <p>Modular simulation benchmark for coordinating, evaluating, and testing autonomous AI agents executing multi-step workflows.</p>
         <p>
-          <img src="https://img.shields.io/badge/Domain-AI_Agents_•_RAG-ec4899?style=flat-square&logo=openai&logoColor=white" />
-          <img src="https://img.shields.io/badge/Stack-LangChain_•_FastAPI_•_Redis-1e293b?style=flat-square" />
+          <code>AI Agents</code> • <code>RAG</code> • <code>LangChain</code> • <code>FastAPI</code>
         </p>
         <p>
           <a href="https://github.com/DarshakBisane">
-            <img src="https://img.shields.io/badge/VIEW_REPOSITORY-030712?style=for-the-badge&logo=github&logoColor=ec4899" alt="View Agentic Arena" />
+            <b>Explore Repository →</b>
           </a>
         </p>
       </div>
@@ -158,12 +157,11 @@
         <p><strong>Mathematical Foundations & DSA</strong></p>
         <p>Optimized algorithmic solutions, data structure implementations, and foundational machine learning experiments built from scratch.</p>
         <p>
-          <img src="https://img.shields.io/badge/Domain-Algorithms_•_Math-10b981?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/Stack-Python_•_NumPy_•_PyTorch-1e293b?style=flat-square" />
+          <code>Algorithms</code> • <code>Math</code> • <code>NumPy</code> • <code>PyTorch</code>
         </p>
         <p>
           <a href="https://github.com/DarshakBisane">
-            <img src="https://img.shields.io/badge/VIEW_REPOSITORY-030712?style=for-the-badge&logo=github&logoColor=10b981" alt="View Algorithmic Core" />
+            <b>Explore Repository →</b>
           </a>
         </p>
       </div>
@@ -173,7 +171,7 @@
 
 ---
 
-### 🗺️ `04 // LEARNING TRAJECTORY & ROADMAP`
+## 🧭 Learning Roadmap
 
 <div align="center">
   <img src="assets/roadmap.svg" alt="Engineering Learning Roadmap" width="100%" />
@@ -181,7 +179,7 @@
 
 ---
 
-### 📡 `05 // ACTIVE TELEMETRY (CURRENT FOCUS)`
+## ⚡ Currently Building
 
 - ⚡ **RAG Architectures**: Engineering production-ready retrieval systems with hybrid search (BM25 + Dense embeddings).
 - 🚀 **FastAPI Microservices**: Architecting high-concurrency asynchronous endpoints integrated with Redis queues.
@@ -190,7 +188,7 @@
 
 ---
 
-### 🧬 `06 // DEVELOPER PHILOSOPHY`
+## 💡 Developer Philosophy
 
 ```python
 class Developer:
@@ -211,7 +209,7 @@ class Developer:
 
 ---
 
-### 📊 `07 // GITHUB TELEMETRY & ANALYTICS`
+## 📈 GitHub Telemetry & Stats
 
 <div align="center">
   <img src="assets/stats.svg" alt="Darshak's GitHub Telemetry" width="100%" />
@@ -219,27 +217,29 @@ class Developer:
 
 ---
 
-### 🌐 `08 // TRANSMISSION & UPLINK`
+## 📬 Get in Touch
 
 <div align="center">
   <p>Looking to collaborate on Machine Learning projects, RAG systems, or backend engineering? Let's connect!</p>
   
-  <a href="https://github.com/DarshakBisane">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=00f0ff&labelColor=030712" alt="GitHub" />
+  <br/>
+  
+  <a href="https://github.com/DarshakBisane" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" width="42" height="42" alt="GitHub" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <!-- REPLACE 'YOUR-LINKEDIN-USERNAME' WITH YOUR ACTUAL LINKEDIN PROFILE SLUG -->
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=030712" alt="LinkedIn" />
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="42" height="42" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <!-- REPLACE 'your-email@example.com' WITH YOUR ACTUAL EMAIL -->
   <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712" alt="Email" />
+    <img src="https://skillicons.dev/icons?i=gmail" width="42" height="42" alt="Email" />
   </a>
 </div>
 
-<br/>
+<br/><br/>
 
 <!-- ==================== FOOTER ==================== -->
 <div align="center">

@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Circuit Path Gradients -->
+    <linearGradient id="activeBus" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="35%" stop-color="#3b82f6"/>
+      <stop offset="65%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Card Backgrounds -->
+    <linearGradient id="cardGradActive" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGradComp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="neonPulse" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="roadGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+
+    <style>
+      @keyframes flowData {
+        0% { stroke-dashoffset: 60; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.1); opacity: 1; }
+      }
+      .data-bus {
+        stroke-dasharray: 6 6;
+        animation: flowData 2s linear infinite;
+      }
+      .pulse-indicator {
+        animation: pulseNode 3s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .mono-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+      }
+      .sans-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="860" height="300" rx="14" fill="url(#roadBg)"/>
+  <rect width="860" height="300" rx="14" fill="url(#roadGrid)" opacity="0.6"/>
+  <rect width="860" height="300" rx="14" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Top Roadmap HUD Header -->
+  <g transform="translate(30, 32)">
+    <text x="0" y="0" fill="#00f0ff" class="mono-text" font-size="12" font-weight="700" letter-spacing="1.5">
+      // SYSTEM_TRAJECTORY: AI &amp; SOFTWARE ARCHITECTURE PIPELINE
+    </text>
+    <line x1="0" y1="10" x2="800" y2="10" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="800" cy="10" r="2.5" fill="#a855f7"/>
+  </g>
+
+  <!-- Interconnecting Circuit Bus Line -->
+  <!-- Top row connects at y=130 -->
+  <path d="M 95 130 L 765 130" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 95 130 L 500 130" stroke="url(#activeBus)" stroke-width="3" class="data-bus"/>
+  <!-- Branch bus down to bottom row -->
+  <path d="M 765 130 Q 795 130 795 160 Q 795 210 765 210 L 95 210" stroke="#1e293b" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+
+  <!-- ==================== STAGE 1: PYTHON & FOUNDATIONS ==================== -->
+  <g transform="translate(30, 60)">
+    <!-- Card Frame -->
+    <rect width="240" height="100" rx="8" fill="url(#cardGradComp)" stroke="#10b981" stroke-width="1" stroke-opacity="0.6"/>
+    <!-- Top Pill -->
+    <rect x="10" y="8" width="60" height="16" rx="4" fill="#064e3b"/>
+    <text x="40" y="19.5" fill="#34d399" class="mono-text" font-size="8.5" font-weight="bold" text-anchor="middle">PHASE 01</text>
+    <!-- Status Badge -->
+    <text x="230" y="20" fill="#34d399" class="mono-text" font-size="8.5" font-weight="600" text-anchor="end">✓ MASTERED</text>
+    <!-- Title -->
+    <text x="10" y="44" fill="#f8fafc" class="sans-text" font-size="13" font-weight="bold">Core Engineering &amp; DSA</text>
+    <!-- Tech list -->
+    <text x="10" y="65" fill="#94a3b8" class="mono-text" font-size="10">Python 3.x • DSA • OOP</text>
+    <text x="10" y="82" fill="#64748b" class="mono-text" font-size="9.5">Problem Solving • Algorithms</text>
+    <!-- Node Dot -->
+    <circle cx="240" cy="70" r="4" fill="#10b981" filter="url(#neonPulse)"/>
+  </g>
+
+  <!-- ==================== STAGE 2: DATA & QUERYING ==================== -->
+  <g transform="translate(310, 60)">
+    <rect width="240" height="100" rx="8" fill="url(#cardGradComp)" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="10" y="8" width="60" height="16" rx="4" fill="#0c4a6e"/>
+    <text x="40" y="19.5" fill="#38bdf8" class="mono-text" font-size="8.5" font-weight="bold" text-anchor="middle">PHASE 02</text>
+    <text x="230" y="20" fill="#38bdf8" class="mono-text" font-size="8.5" font-weight="600" text-anchor="end">✓ READY</text>
+    <text x="10" y="44" fill="#f8fafc" class="sans-text" font-size="13" font-weight="bold">Data Systems &amp; SQL</text>
+    <text x="10" y="65" fill="#94a3b8" class="mono-text" font-size="10">PostgreSQL • SQL • Redis</text>
+    <text x="10" y="82" fill="#64748b" class="mono-text" font-size="9.5">Pandas • Data Pipelines</text>
+    <circle cx="240" cy="70" r="4" fill="#00f0ff" filter="url(#neonPulse)"/>
+  </g>
+
+  <!-- ==================== STAGE 3: APPLIED ML & NLP ==================== -->
+  <g transform="translate(590, 60)">
+    <rect width="240" height="100" rx="8" fill="url(#cardGradActive)" stroke="#a855f7" stroke-width="1.2"/>
+    <rect x="10" y="8" width="60" height="16" rx="4" fill="#581c87"/>
+    <text x="40" y="19.5" fill="#d8b4fe" class="mono-text" font-size="8.5" font-weight="bold" text-anchor="middle">PHASE 03</text>
+    <text x="230" y="20" fill="#c084fc" class="mono-text" font-size="8.5" font-weight="700" text-anchor="end">● ACTIVE</text>
+    <text x="10" y="44" fill="#f8fafc" class="sans-text" font-size="13" font-weight="bold">Applied ML &amp; NLP</text>
+    <text x="10" y="65" fill="#e2e8f0" class="mono-text" font-size="10">PyTorch • Scikit-Learn • NLP</text>
+    <text x="10" y="82" fill="#a855f7" class="mono-text" font-size="9.5">Feature Engineering • CV</text>
+    <circle cx="240" cy="70" r="5" fill="#a855f7" filter="url(#neonPulse)"/>
+  </g>
+
+  <!-- ==================== STAGE 4: BACKEND & FASTAPI ==================== -->
+  <g transform="translate(30, 180)">
+    <rect width="240" height="100" rx="8" fill="url(#cardGradActive)" stroke="#3b82f6" stroke-width="1.2"/>
+    <rect x="10" y="8" width="60" height="16" rx="4" fill="#1e3a8a"/>
+    <text x="40" y="19.5" fill="#93c5fd" class="mono-text" font-size="8.5" font-weight="bold" text-anchor="middle">PHASE 04</text>
+    <text x="230" y="20" fill="#60a5fa" class="mono-text" font-size="8.5" font-weight="700" text-anchor="end">● ACTIVE</text>
+    <text x="10" y="44" fill="#f8fafc" class="sans-text" font-size="13" font-weight="bold">Backend Architecture</text>
+    <text x="10" y="65" fill="#e2e8f0" class="mono-text" font-size="10">FastAPI • RESTful APIs • Async</text>
+    <text x="10" y="82" fill="#60a5fa" class="mono-text" font-size="9.5">Microservices • System Design</text>
+    <circle cx="240" cy="70" r="5" fill="#3b82f6" filter="url(#neonPulse)"/>
+  </g>
+
+  <!-- ==================== STAGE 5: RAG & AI AGENTS ==================== -->
+  <g transform="translate(310, 180)">
+    <rect width="240" height="100" rx="8" fill="url(#cardGradActive)" stroke="#ec4899" stroke-width="1.2"/>
+    <rect x="10" y="8" width="60" height="16" rx="4" fill="#831843"/>
+    <text x="40" y="19.5" fill="#f472b6" class="mono-text" font-size="8.5" font-weight="bold" text-anchor="middle">PHASE 05</text>
+    <text x="230" y="20" fill="#f472b6" class="mono-text" font-size="8.5" font-weight="700" text-anchor="end">⚡ BUILDING</text>
+    <text x="10" y="44" fill="#f8fafc" class="sans-text" font-size="13" font-weight="bold">GenAI &amp; Autonomous Agents</text>
+    <text x="10" y="65" fill="#e2e8f0" class="mono-text" font-size="10">RAG Pipelines • Agent Swarms</text>
+    <text x="10" y="82" fill="#ec4899" class="mono-text" font-size="9.5">Vector DBs • LangChain/Llama</text>
+    <circle cx="240" cy="70" r="5" fill="#ec4899" filter="url(#neonPulse)"/>
+  </g>
+
+  <!-- ==================== STAGE 6: MLOPS & PRODUCTION ==================== -->
+  <g transform="translate(590, 180)">
+    <rect width="240" height="100" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+    <rect x="10" y="8" width="60" height="16" rx="4" fill="#1e293b"/>
+    <text x="40" y="19.5" fill="#94a3b8" class="mono-text" font-size="8.5" font-weight="bold" text-anchor="middle">PHASE 06</text>
+    <text x="230" y="20" fill="#94a3b8" class="mono-text" font-size="8.5" font-weight="600" text-anchor="end">🚀 TARGET</text>
+    <text x="10" y="44" fill="#e2e8f0" class="sans-text" font-size="13" font-weight="bold">MLOps &amp; Cloud Systems</text>
+    <text x="10" y="65" fill="#94a3b8" class="mono-text" font-size="10">Docker • CI/CD • Model Serving</text>
+    <text x="10" y="82" fill="#64748b" class="mono-text" font-size="9.5">Cloud Infra • Production AI</text>
+    <circle cx="240" cy="70" r="4" fill="#64748b"/>
+  </g>
+</svg>
